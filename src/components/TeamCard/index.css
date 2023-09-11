@@ -1,0 +1,52 @@
+/* Write your CSS here */
+.team-item {
+  list-style: none;
+  width: 50%;
+}
+
+.link-item {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff33;
+  border: 1px solid #ffffff;
+  border-radius: 12px;
+  width: 90%;
+  margin: 10px;
+  height: 12vh;
+  padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .link-item {
+    height: 12vh;
+  }
+}
+
+.team-logo {
+  width: 65px;
+  height: 65px;
+}
+
+@media screen and (min-width: 768px) {
+  .team-logo {
+    width: 85px;
+    height: 85px;
+  }
+}
+
+.team-name {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  margin-left: 10px;
+  font-size: 20px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .team-name {
+    font-size: 22px;
+    margin-right: 0px;
+  }
+}
